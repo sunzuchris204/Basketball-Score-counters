@@ -1,0 +1,44 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-color: #1B244A;
+}
+
+.container {
+    color: #EEEEEE;
+    display: flex;
+    justify-content: space-around;
+}
+.row {
+    display: flex;
+}
+.second p {
+    text-align: center;
+    margin-top: 0px;
+    font-size: 35px; 
+    font: Cursed Timer ULiL;
+    color: #F94F6D;
+    background-color: #080001;
+    height: 70px;
+    width: 100px;
+}
+.card {
+    border-radius: 5px;
+    margin: 1px;
+    border: 2px solid #9AABD8;
+}
+.card button{
+    height: 30px;
+    width: 30px;
+    background-color: #1B244A;
+    color: #9AABD8;
+}
+.start {
+    position: absolute;
+    height: 30px;
+    top: 213px;
+    border: none;
+    border-radius: 5px;   
+    background-color: #9AABD8;
+    color: #EEEEEE;
+}
